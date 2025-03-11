@@ -1,0 +1,11 @@
+name: Require PR Checklist
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize, ready_for_review]
+
+jobs:
+  pr-checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: it-at-m/lhm_actions/action-templates/actions/action-pr-checklist@175e2b8e7162b91368e37f1ea5b74bf5ec3ee10a # v1.0.4
