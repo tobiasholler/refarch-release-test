@@ -6,15 +6,15 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.4.3</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <groupId>de.muenchen.refarch</groupId>
     <artifactId>refarch-backend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>refarch_backend</name>
     <description>This is the default starting project for a backend project based on the reference architecture of it@M</description>
-    <url>https://github.com/it-at-m/refarch-templates</url>
+    <url>https://github.com/tobiasholler/refarch-release-test</url>
 
     <properties>
         <!-- Compilation -->
@@ -248,8 +248,8 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:https://github.com/it-at-m/refarch-templates.git</connection>
-        <developerConnection>scm:git:https://github.com/it-at-m/refarch-templates.git</developerConnection>
+        <connection>scm:git:https://github.com/tobiasholler/refarch-release-test.git</connection>
+        <developerConnection>scm:git:https://github.com/tobiasholler/refarch-release-test.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
