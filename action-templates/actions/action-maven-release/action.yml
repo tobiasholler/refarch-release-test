@@ -117,4 +117,5 @@ runs:
             owner,
             repo,
             pull_number: pullRequest.number,
+            merge_method: 'rebase',
           });
