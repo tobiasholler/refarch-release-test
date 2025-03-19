@@ -29,7 +29,7 @@ jobs:
       TZ: Europe/Berlin # timezone
     steps:
       - id: maven-release-step
-        uses: tobiasholler/refarch-release-test/action-templates/actions/action-maven-release@175e2b8e7162b91368e37f1ea5b74bf5ec3ee10a # v1.0.4
+        uses: ./../../action-templates/actions/action-maven-release@175e2b8e7162b91368e37f1ea5b74bf5ec3ee10a # v1.0.4
         with:
           app-path: "/${{ github.event.inputs.app-path }}"
           releaseVersion: "${{ github.event.inputs.releaseVersion }}"
