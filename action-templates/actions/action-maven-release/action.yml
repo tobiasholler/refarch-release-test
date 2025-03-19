@@ -111,10 +111,10 @@ runs:
             base: '${{ github.ref_name }}',
             body: [
               'This PR is auto-generated'
-            ].join('\n')
+            ].join('\n'),
           });
           await github.pulls.merge({
             owner,
             repo,
-            pullRequest.number,
+            pull_number: pullRequest.number,
           });
