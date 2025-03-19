@@ -113,7 +113,7 @@ runs:
               'This PR is auto-generated'
             ].join('\n'),
           });
-          await github.pulls.merge({
+          await github.rest.pulls.merge({
             owner,
             repo,
             pull_number: pullRequest.number,
