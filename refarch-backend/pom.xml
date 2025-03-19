@@ -11,7 +11,7 @@
 
     <groupId>de.muenchen.refarch</groupId>
     <artifactId>refarch-backend</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>refarch_backend</name>
     <description>This is the default starting project for a backend project based on the reference architecture of it@M</description>
     <url>https://github.com/tobiasholler/refarch-release-test</url>
@@ -250,7 +250,7 @@
     <scm>
         <connection>scm:git:https://github.com/tobiasholler/refarch-release-test.git</connection>
         <developerConnection>scm:git:https://github.com/tobiasholler/refarch-release-test.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>refarch-backend-0.0.2</tag>
     </scm>
 
     <build>
